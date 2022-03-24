@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: dodgerblue;
+    font-family: monospace;
+}
+
+h3 {
+    color: indigo;
+    font-family: monospace;
+}
+
+span {
+    color: dimgrey;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.apelido {
+    background-color: yellowgreen;
+}
+
+#unic {
+    background-color: seagreen;
+}
