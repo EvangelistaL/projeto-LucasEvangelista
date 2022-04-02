@@ -26,8 +26,6 @@ body {
     list-style: none;
     width: 400px;
     justify-content: space-between;
-    margin-right: 5%;
-    margin-top: 3%;
     align-items: center;
 }   
 
@@ -68,6 +66,7 @@ p {
 .footer {
     background-color: #32B9cd;
     color: white;
+    height: 340px;
 }
 
 .footer .container {
@@ -106,6 +105,9 @@ form input {
     padding: 8px;
     border-radius: 10px;
 }
+form label {
+    margin-top: 8px;
+}
 
 form button {
     margin-top: 16px;
@@ -119,3 +121,33 @@ form button {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.mvv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 500px;
+}
+
+.mvv div {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+}
+
+.mvv img {
+    margin-top: 50px;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mvv h3 {
+    color: #E6005A;
+}
+
