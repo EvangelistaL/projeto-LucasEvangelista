@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vw;
+    overflow-x: hidden;
+}
+
+div {
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.base h1{
+    align-items: center;
+    margin-left: 25px;
+}
+
+.box1 {
+    background-color: rgb(0, 167, 233);
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.box2 {
+    background-color: rgb(6, 0, 88);
+    width: 70px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.box3 {
+    background-color: rgb(248, 47, 88);
+    width: 70px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.box4 {
+    background-color: orange;
+    width: 70px;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.base.container1 {
+    height: 70px;
+}
+
+.base.container2 {
+    display: flex;
+    height: 70px;
+    justify-content: end;
+}
+
+.base.container3 {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+}
+
+.base.container4 {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+}
+
+.base.container5 {
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.base.container6 {
+    display: flex;
+    height: 70px;
+    justify-content: space-evenly;
+}
+
+.base.container-exercicioB {
+    display: flex;
+    height: 320px;
+    flex-direction: column;
+    justify-content: left;  
+}
+
+.base.container-desafio {
+    display: flex;
+}
+
+.base.container-desafio .box1 {
+    margin-right: 89%;
+}
